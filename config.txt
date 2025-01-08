@@ -1,0 +1,25 @@
+data type in js
+
+string
+number
+boolean
+null
+undefined
+array
+object
+function
+
+ what is ts?
+
+typeScript is the superset of javascript to give the extra features for example
+enum
+unkown
+never
+any
+interface
+union
+Tuple
+Void
+bigint
+symbol
+
