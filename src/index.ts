@@ -87,4 +87,36 @@
 //   }
 // }
 // const response = foo(12, 12)
-//  console.log(response)
+// console.log(typeof response)
+
+// ********************<any,unkown)>*********************
+
+// let a: any = 1
+// let b: unknown = 'jamjjd'
+// b = true
+// a = 'song '
+// let c:number=a
+// // let c:number=b
+// console.log(a)
+
+// ********************<enum)>*********************
+// An enum is a special "class" that represents a group of constants (unchangeable variables).
+
+// Enums come in two flavors string and numeric. .
+
+// enum Day {
+//   mon = 'mon',
+//   tue = 'tue',
+//   wed = 'wed',
+//   thu = 'thu',
+//   fir = 'fir',
+//   sat = 'sat',
+//   sun = 'sat',
+// }
+// enum LogCode {
+//   bad = 400,
+//   success = 200,
+//   fail = 404,
+// }
+// console.log(LogCode.bad)
+// console.log(Day.mon)

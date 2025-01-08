@@ -63,10 +63,39 @@
 // className.rollNumber=30
 // console.log(className.rollNumber)
 // ********************<function)>*********************
-const foo = (a, b) => {
-    return {
-        add: a + b,
-    };
-};
-const response = foo(12, 12);
-console.log(response);
+// const foo = (a: number, b: number): Object => {
+//   return {
+//     add: a + b,
+//   }
+// }
+// const response = foo(12, 12)
+// console.log(typeof response)
+// ********************<any,unkown)>*********************
+// let a: any = 1
+// let b: unknown = 'jamjjd'
+// b = true
+// a = 'song '
+// let c:number=a
+// // let c:number=b
+// console.log(a)
+// ********************<enum)>*********************
+// An enum is a special "class" that represents a group of constants (unchangeable variables).
+// Enums come in two flavors string and numeric. .
+var Day;
+(function (Day) {
+    Day["mon"] = "mon";
+    Day["tue"] = "tue";
+    Day["wed"] = "wed";
+    Day["thu"] = "thu";
+    Day["fir"] = "fir";
+    Day["sat"] = "sat";
+    Day["sun"] = "sat";
+})(Day || (Day = {}));
+var LogCode;
+(function (LogCode) {
+    LogCode[LogCode["bad"] = 400] = "bad";
+    LogCode[LogCode["success"] = 200] = "success";
+    LogCode[LogCode["fail"] = 404] = "fail";
+})(LogCode || (LogCode = {}));
+console.log(LogCode.bad);
+console.log(Day.mon);
