@@ -1,7 +1,6 @@
 "use strict";
 const data = {
     adminId: '12l2k',
-    adminName: 'admin',
     name: 'John Doe',
     email: 'john.doe@example.com',
     password: 'password123',

@@ -14,12 +14,10 @@ interface UserInfo {
 
 interface AdminInfo extends UserInfo {
   adminId: string
-  adminName: string
 }
 
 const data: AdminInfo = {
   adminId: '12l2k',
-  adminName: 'admin',
   name: 'John Doe',
   email: 'john.doe@example.com',
   password: 'password123',
