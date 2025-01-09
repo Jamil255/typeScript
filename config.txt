@@ -13,6 +13,8 @@ function
 
 typeScript is the superset of javascript to give the extra features for example
 enum
+readonly
+ReadonyArray
 unkown
 never
 any

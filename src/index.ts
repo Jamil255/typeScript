@@ -120,3 +120,7 @@
 // }
 // console.log(LogCode.bad)
 // console.log(Day.mon)
+// var a: unknown = 12
+// var b: any = "1122"
+
+// const c:number=b

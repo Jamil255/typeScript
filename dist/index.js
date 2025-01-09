@@ -81,21 +81,22 @@
 // ********************<enum)>*********************
 // An enum is a special "class" that represents a group of constants (unchangeable variables).
 // Enums come in two flavors string and numeric. .
-var Day;
-(function (Day) {
-    Day["mon"] = "mon";
-    Day["tue"] = "tue";
-    Day["wed"] = "wed";
-    Day["thu"] = "thu";
-    Day["fir"] = "fir";
-    Day["sat"] = "sat";
-    Day["sun"] = "sat";
-})(Day || (Day = {}));
-var LogCode;
-(function (LogCode) {
-    LogCode[LogCode["bad"] = 400] = "bad";
-    LogCode[LogCode["success"] = 200] = "success";
-    LogCode[LogCode["fail"] = 404] = "fail";
-})(LogCode || (LogCode = {}));
-console.log(LogCode.bad);
-console.log(Day.mon);
+// enum Day {
+//   mon = 'mon',
+//   tue = 'tue',
+//   wed = 'wed',
+//   thu = 'thu',
+//   fir = 'fir',
+//   sat = 'sat',
+//   sun = 'sat',
+// }
+// enum LogCode {
+//   bad = 400,
+//   success = 200,
+//   fail = 404,
+// }
+// console.log(LogCode.bad)
+// console.log(Day.mon)
+// var a: unknown = 12
+// var b: any = "1122"
+// const c:number=b
