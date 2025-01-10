@@ -49,9 +49,9 @@ class UserName {
   }
 }
 
-const datas = new UserName()
-console.log((datas.passwordSet = '112233'))
-console.log(datas.userData)
+// const datas = new UserName()
+// console.log((datas.passwordSet = '112233'))
+// console.log(datas.userData)
 
 class SabUserName extends UserName {
   constructor(_name: string, _email: string) {

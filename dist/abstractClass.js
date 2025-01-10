@@ -21,3 +21,4 @@
 // }
 // const res = new Instagram('test', 'test', 12)
 // console.log(res.clickCemare())
+// console.log(res.clickCemare())
