@@ -9,6 +9,7 @@ array
 object
 function
 classes
+abstarct class
 generic classes
 
  what is ts?
