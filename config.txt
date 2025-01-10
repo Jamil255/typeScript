@@ -8,6 +8,8 @@ undefined
 array
 object
 function
+classes
+generic classes
 
  what is ts?
 
@@ -20,6 +22,13 @@ never
 any
 interface
 union
+Generics
+Narrowing
+public
+private
+protected
+type
+interface
 Tuple
 Void
 bigint
